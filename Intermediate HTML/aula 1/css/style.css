@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    font-family: monospace;
+    text-shadow: 0px 0px 5px black;
+    background-blend-mode:overlay;
+    background-image:url("D:/Users/WINDOWS/Desktop/CURSO DEV/Intermediate HTML/aula 1/img/fundo.jpg");
+    background-color: rgba(186, 127, 253, 0.541);
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    
+    color:rgb(0, 0, 0);
+    width: 20%;
+    padding: 30px;
+}
+
+.navbar ul li {
+    border-radius: 0 10px 0 10px;
+    list-style: none;
+    background-color: rgba(186, 127, 253, 0.541);
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.navbar ul li a{
+   text-decoration: none;
+   color : black;
+   
+} 
+
+.content {
+    text-shadow: 0px 0px 5px rgb(220, 87, 224);
+    margin: 35px;
+    border-radius: 0 30px 0 30px;
+    text-align: center;
+    width:80%;
+    background-color:rgba(186, 127, 253, 0.541);
+    padding: 30px;
+}
+.content h2 {
+
+    border: 2px solid rgba(186, 127, 253, 0.541);
+    width: 50%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    
+}
+
+.foto {
+    width: 500px
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(201, 168, 231);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}

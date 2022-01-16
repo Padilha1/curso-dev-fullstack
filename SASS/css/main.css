@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.container .box .success, .container .box .error, .container .box .alert {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+  color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .box {
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.container .box h2 {
+  font-size: 22px;
+}
+
+.container .box p {
+  font-size: 18px;
+}
+
+.container .box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container .box a {
+  color: green;
+}
+
+.container .box a:hover {
+  color: magenta;
+}
+
+.container .box .success {
+  background-color: green;
+}
+
+.container .box .error {
+  background-color: red;
+}
+
+.container .box .alert {
+  background-color: yellow;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

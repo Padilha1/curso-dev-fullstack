@@ -1,0 +1,21 @@
+@mixin reset-list ($margin: 0, $padding: 0, $style: none ){
+    margin: $margin;
+    padding: $padding;
+    list-style: $style;
+} 
+
+@mixin bg-effect($effect){
+    @if $effect == success {
+        background-color: green;
+    }
+    @else if $effect == alert {
+        background-color: yellow;
+        color:black;
+    }
+    @else if $effect == error {
+        background-color: red;
+    }
+    @else {
+        background-color: white;
+    }
+}

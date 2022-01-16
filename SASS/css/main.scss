@@ -1,0 +1,51 @@
+@import 'base';
+@import 'variable';
+@import 'mixins';
+@import 'extends';
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+
+    .box {
+        width: 30%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+    
+
+        h2 {
+            font-size: 22px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        ul {
+            @include reset-list();
+        }
+
+        a {
+            color: green;
+            
+            &:hover {
+                color: magenta;
+            }
+        }
+
+        .success {
+            @extend %box-alert;
+            @include bg-effect(success);
+        }
+        .error {
+            @extend %box-alert;
+            @include bg-effect(error); 
+        }
+        .alert {
+            @extend %box-alert;
+            @include bg-effect(alert); 
+        }
+    }   
+}
